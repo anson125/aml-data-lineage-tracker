@@ -1,0 +1,13 @@
+transaction_id,transaction_date,customer_id,customer_name,source_system,account_type,amount,currency,origin_country,destination_country,risk_country,customer_risk_rating,monitoring_scenario,monitoring_outcome
+TXN-1001,2026-01-03,C-4410,Harbor Import LLC,Core Banking,Operating,2450.00,USD,US,US,Low,Medium,Structuring,Clear
+TXN-1002,2026-01-05,C-5512,Northline Trading,Wire Platform,Commercial,18500.00,USD,US,AE,High,High,High-Risk Geography,Review
+TXN-1003,2026-01-08,C-1277,Blue Ridge Foods,ACH Processor,Operating,9800.00,USD,US,US,Low,Low,Velocity Spike,Clear
+TXN-1004,2026-01-11,C-8832,Keystone Metals,Wire Platform,Commercial,27000.00,USD,US,TR,High,High,Large Wire Transfer,Review
+TXN-1005,2026-01-12,C-2209,East Park Market,Core Banking,Retail,1200.00,USD,US,US,Low,Low,Structuring,Clear
+TXN-1006,2026-01-15,C-6631,Summit Advisory,ACH Processor,Commercial,11250.00,USD,US,GB,Medium,Medium,Large ACH Transfer,Review
+TXN-1007,2026-01-18,C-7788,Beacon Freight,Trade Finance,Commercial,64000.00,USD,US,SG,Medium,High,Trade Finance Review,Review
+TXN-1008,2026-01-21,C-9011,Lakeview Pharmacy,Core Banking,Retail,4300.00,USD,US,US,Low,Medium,Velocity Spike,Clear
+TXN-1009,2026-01-24,C-3144,Metro Exchange,Wire Platform,Commercial,15500.00,USD,US,PA,High,High,High-Risk Geography,Review
+TXN-1010,2026-01-27,C-1189,Greenfield Services,ACH Processor,Operating,7600.00,USD,US,CA,Low,Low,Large ACH Transfer,Clear
+TXN-1011,2026-01-29,C-7772,Union Auto Sales,Core Banking,Commercial,9900.00,USD,US,US,Low,Medium,Structuring,Clear
+TXN-1012,2026-02-02,C-5544,Capital Gems,Wire Platform,Commercial,42000.00,USD,US,HK,Medium,High,Large Wire Transfer,Review
