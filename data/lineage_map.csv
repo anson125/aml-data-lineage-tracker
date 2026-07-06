@@ -1,0 +1,9 @@
+source_system,target_system,field_name,transformation,owner,control
+Core Banking,Customer Master,customer_id,Join customer profile to account records,Data Engineering,Daily reconciliation
+Wire Platform,Transaction Staging,transaction_id,Standardize wire references and timestamps,Payments Operations,Completeness check
+ACH Processor,Transaction Staging,amount,Normalize transaction amount to USD,Payments Operations,Amount validation
+Trade Finance,Transaction Staging,origin_country,Map trade document country to monitoring country code,Trade Compliance,Reference data review
+Customer Master,Risk Scoring,customer_risk_rating,Apply latest KYC risk rating,Financial Crimes Compliance,KYC refresh control
+Transaction Staging,Risk Scoring,risk_country,Flag destination country risk tier,Financial Crimes Compliance,Sanctions geography review
+Risk Scoring,AML Scenario Engine,monitoring_scenario,Route transaction to monitoring rule,AML Analytics,Scenario threshold review
+AML Scenario Engine,AML Monitoring Report,monitoring_outcome,Classify alert disposition for analyst queue,AML Operations,Alert quality sampling
